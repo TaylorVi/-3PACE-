@@ -9,3 +9,25 @@ btnIcon.addEventListener('mouseover', function() {
 btnIcon.addEventListener('mouseout', function() {
     callUs.innerHTML = `<img src="/assets/Call Us.svg" alt="">`
 })
+
+
+// swiper
+
+var swiper = new Swiper('.swiper', {
+    slidesPerView: 4.5,
+    spaceBetween: 0,
+    speed: 800,
+    pagination:{
+        el: '.swiper-pagination',
+        clickable: true
+    },
+    
+  });
+
+//   aos
+
+  AOS.init({
+    duration: 1000,
+    once: true,
+    
+  });
