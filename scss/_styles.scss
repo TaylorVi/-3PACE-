@@ -157,7 +157,6 @@ header{
                 margin-bottom: 4rem;
             }
             h2{
-                width: 350px;
                 margin-bottom: 3.2rem;
             }
             p{
@@ -272,12 +271,14 @@ header{
         .slide{
             margin-top: 5.2rem;
             margin-bottom: 3.6rem;
+            user-select: none;
             .swiper{
                 .swiper-wrapper{
                     .swiper-slide{
                         .card{
+                            
                             position: relative;
-                            max-width: 24rem;
+                            max-width: 32.2rem;
                             overflow: hidden;
                             border-radius: 1rem 1rem 0rem 0rem;
                             img{
@@ -309,7 +310,7 @@ header{
                                 position: relative;
                                 z-index: 1;
                                 margin-top: -0.8rem;
-                                max-width: 24rem;
+                                max-width: 32.2rem;
                                 height: 8rem;
                                 border-radius: 0rem 0rem 1rem 1rem;
                                 display: flex;
@@ -349,6 +350,7 @@ header{
         }
         .bot{
             .ctrl {
+                user-select: none;
                 display: flex;
                 justify-content: space-between;
                 .swiper-pagination {
@@ -371,6 +373,8 @@ header{
             display: flex;
             align-items: center;
             gap: 1.2rem;
+            color: #7478FE;
+            opacity: 0.6;
         }
     }
 }
@@ -414,4 +418,15 @@ footer{
         }
     }
     
+}
+  
+    
+.starAbsolute1 {
+    width: 252px;
+    height: 253px;
+    position: absolute;
+    top: 66.9rem;
+    left: 76.8rem;
+    z-index: 2;
+
 }

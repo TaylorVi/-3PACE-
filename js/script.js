@@ -14,8 +14,8 @@ btnIcon.addEventListener('mouseout', function() {
 // swiper
 
 var swiper = new Swiper('.swiper', {
-    slidesPerView: 4.5,
-    spaceBetween: 0,
+    slidesPerView: 3.2,
+    spaceBetween: 52,
     speed: 800,
     pagination:{
         el: '.swiper-pagination',

@@ -48,6 +48,7 @@ button{
 }
 
 .tag{
+    user-select: none;
     display: flex;
     gap: .8rem;
     padding: .4rem .8rem;
@@ -88,4 +89,5 @@ p{
 
 a{
     text-decoration: none;
+    user-select: none;
 }
