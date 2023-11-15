@@ -21,6 +21,26 @@ var swiper = new Swiper('.swiper', {
         el: '.swiper-pagination',
         clickable: true
     },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      420: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2.4,
+      },
+      991: {
+        slidesPerView: 3.2,
+      },
+      1200: {
+        slidesPerView: 3.2,
+      },
+      1440: {
+        slidesPerView: 3.2,
+      },
+    }
     
   });
 

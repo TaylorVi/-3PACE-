@@ -30,18 +30,18 @@ header{
                 }
             }
             img{
-                max-width: 5.5rem;
+                max-width: 3rem;
             }
             .btn-icon{
                 cursor: pointer;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width: 12rem;
+                width: 14rem;
                 height: 4.2rem;
                 gap: .8rem;
                 background-color: #CACAF6;
-                padding: 8px 16px;
+                padding: 0.8rem 2rem;
                 border-radius: .5rem;
                 transition: all 0.3s ease;
                 span{
@@ -93,7 +93,7 @@ header{
             margin-bottom: 8rem;
             h1{
                 color: #CACAF6;
-                font-size: 48px;
+                font-size: 4.8rem;
                 font-style: normal;
                 font-weight: 700;
                 line-height: normal;
@@ -102,7 +102,7 @@ header{
             p{  
                 margin-top: 3.2rem;
                 color: #CACAF6;
-                font-size: 16px;
+                font-size: 1.6rem;
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal;
@@ -116,14 +116,15 @@ header{
         .right{
             .astronaut{
                 position: absolute;
-                bottom: -90px;
-                right: 261px;            
+                bottom: -9rem;
+                right: 26.1rem;   
+                z-index: 3;         
             }
             .selo{
                 position: absolute;
-                bottom: 270px;
-                right: 421px; 
-                backdrop-filter: blur(5px);    
+                bottom: 27rem;
+                right: 42.1rem; 
+                backdrop-filter: blur(0.5rem);    
                 border-radius: 50%;
                 animation: rotation 20s linear infinite;
             }
@@ -139,9 +140,10 @@ header{
     align-items: center;
     .right{
         img{
+            width: 80rem;
             position: absolute;
-            z-index: 3;
-            bottom: -110px;
+            bottom: -11rem;
+            z-index: 5;
         }
     }
     .container{
@@ -149,7 +151,7 @@ header{
         justify-content: end;
         
         .left{
-            max-width: 552px;
+            max-width: 55.2rem;
             display: flex;
             flex-direction: column;
             .tag{
@@ -233,13 +235,16 @@ header{
 .s-four{
     
     background-color: #CACAF6;
+    
     .container{
         padding-top: 8rem;  
         padding-bottom: 16rem;
+       
         .top{
             display: flex;
             align-items: end;
             justify-content: space-between;
+            
             .left{
                 .tag{
                     max-width: 9.4rem;
@@ -271,7 +276,6 @@ header{
         .slide{
             margin-top: 5.2rem;
             margin-bottom: 3.6rem;
-            user-select: none;
             .swiper{
                 .swiper-wrapper{
                     .swiper-slide{
@@ -421,12 +425,3 @@ footer{
 }
   
     
-.starAbsolute1 {
-    width: 252px;
-    height: 253px;
-    position: absolute;
-    top: 66.9rem;
-    left: 76.8rem;
-    z-index: 2;
-
-}
