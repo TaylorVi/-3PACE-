@@ -127,6 +127,7 @@ header{
                 backdrop-filter: blur(0.5rem);    
                 border-radius: 50%;
                 animation: rotation 20s linear infinite;
+                z-index: 4; 
             }
         }
     }
