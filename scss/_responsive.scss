@@ -81,19 +81,31 @@
     }
     .s-hero{
         overflow: hidden;
+
+        height: 80rem;
+        background-image: url(/assets/Background-Phone.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
         .container{
-            .right{
-                .astronaut{
-                    right: -18rem;
-                    bottom: -16rem;
-                    max-width: 100rem;
-                }
-                .selo{
-                    max-width: 20rem;
-                    right: 12rem;
-                }
-            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        .left{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
+        .right{
+            display: none;
+        }
+    }
     }
     
     .s-two{
@@ -141,31 +153,7 @@
     }
     .s-hero{
         overflow: hidden;
-
-        height: 80rem;
-        background-image: url(/assets/Background-Phone.png);
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: cover;
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        .container{
-                display: flex;
-                justify-content: center;
-                align-items: center;
-            .left{
-                text-align: center;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-            .right{
-                display: none;
-            }
-        }
+        
     }
     .s-four{
         .container{

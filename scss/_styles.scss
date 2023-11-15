@@ -298,13 +298,14 @@ header{
                                 color: #E8E8FF;
                                 width: 19.2rem;
                                 h3{
+                                    cursor: pointer;
                                     font-size: 2.4rem;
                                     font-style: normal;
                                     font-weight: 700;
                                     line-height: normal;
                                 }
                                 span{
-                                    
+                                    cursor: pointer;
                                     font-size: 1.2rem;
                                     font-style: normal;
                                     font-weight: 400;
@@ -386,6 +387,7 @@ header{
 }
 
 footer{
+    user-select: none;
     height: 10rem;
     background-color: #1F2227;
     display: flex;
